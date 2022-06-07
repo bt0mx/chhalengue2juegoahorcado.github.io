@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta content="viewport" content="width=device-width" />
+  <title>HERIBERTO MODNRAGON OSORIO - Challenge 2 Juego Ahorcado</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="titulo">
+  Challenge 2 Juego Ahorcado Hecho por : HERIBERTO MODNRAGON OSORIO
+  </div>
+<img src="images/logo.png" alt="" class="logo" onclick="home()">
+<div class="contenedor">
+  <button class="centrado1" id="centrado1" onclick="iniciarJuego()">Iniciar juego</button>
+  <br><br>
+  <button class="centrado2" id="centrado2" onclick="nuevaPalabra()">Agregar nueva palabra</button>
+</div>
+<!--
+<div>
+  <button class="boton-1" id="boton-comenzar">Iniciar juego</button>
+</div>
+<div>
+  <button class="boton-2" id="adicionar-palabra">Agregar nueva palabra</button>
+</div> -->
+<div id="div-aparece-ahorcado" class="canvas" style="margin-top:-80px;">
+  <canvas id="horca" height="860px" width="1200px"></canvas>
+  <div class="subrayado"></div>
+</div>
+<div class="contenedor" style="margin-top:-150px;margin-left:20%;">
+  <button class="boton-1" id="boton-1" onclick="reiniciarJuego()">NUEVO JUEGO</button>
+  <button class="boton-2" id="boton-2" onclick="regresar()" >REGRESAR</button>
+</div>
+<section id="secion_nueva_palabra" class="contenedor2">
+  <div>
+      <input type="text" name="palabra_nueva" id="palabra_nueva" class="palabra_nueva">
+  </div>
+  <br><br>
+  <div>
+      <button class="boton-1" id="guardar">Guardar</button>
+      <button class="boton-2" id="regresar" onclick="regresar()">Regresar</button>
+  </div>
+</section>
+<script src="js/script.js"></script>
+  <!--
+<div class="hombre-ahorcado">
+  <img id="hombre" alt="hombre-ahorcado" />
+</div>
+<div class="adivinado">
+
+</div>
+<div class="errado"></div>
+<form class="botones" action="javascript:void(0)">
+   <input type="button" class="btn-azul" value="Nuevo juego" onclick="nuevoJuego()"/>
+   <input type="button" value="Desistir" />
+</form>
+<script src="./app.js"></script>
+-->
+</body>
+</html>

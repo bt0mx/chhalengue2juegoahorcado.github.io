@@ -1,0 +1,211 @@
+
+body {
+ /* background-color: #f3f5fc*/
+ background-image: linear-gradient(to right, 
+ #fdb94e,
+ #f9a852,
+ #f69653,
+ #f38654,
+ #f07654,
+ #ed6856,
+ #ef5956,
+ #ee4c58
+);
+}
+
+
+div.contenedor {
+  width: 100%;
+}
+
+#titulo{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+/*
+footer{
+  position: re;
+  margin: 1rem;
+  padding: 1rem;
+  border: 0px solid #ccc;
+  text-align: center;
+}*/
+
+button.centrado1{
+  width: 150px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  background-color: #0A3871;
+  border: 1px solid #E5E5E5;
+  border: none;
+  color: white;
+  border-radius: 30px;
+}
+
+.centrado1:hover {
+ /* background-color: #E5E5E5;*/
+  border: 1px solid #E5E5E5;
+ /* color: #0A3871;*/
+}
+
+button.centrado2{
+  width: 210px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  background-color: #E5E5E5;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  border-radius: 30px;
+}
+
+.centrado2:hover {
+ /* background-color: #0A3871;*/
+  border: 1px solid #E5E5E5;
+ /*color: white;*/
+}
+
+
+.boton-1 {
+  width: 150px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+
+  padding: 20px;
+  background-color: #0A3871;
+  border: 1px solid #E5E5E5;
+  border: none;
+  color: white;
+  border-radius: 30px;
+}
+
+.boton-1:hover {
+  background-color: #E5E5E5;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+}
+
+.boton-2 {
+  width: 150px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+  padding: 20px;
+  background-color: #E5E5E5;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  border-radius: 30px;
+}
+
+.boton-2:hover {
+  background-color: #0A3871;
+  border: none;
+  color: white;
+}
+
+.boton {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.contenedor2 {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  align-items: center;
+  margin: 3%;
+  border:none;
+  margin-left: 40%;
+  margin-top: 300px;
+}
+
+.palabra_nueva{
+    width: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #39c;
+}
+
+/*
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 16px;
+}
+
+footer{
+  font-family: Inter;
+  color: #000;
+}
+
+#hombre {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+
+.hombre-ahorcado {
+  width: 100vw;
+  text-align: center;
+  margin-top:  4rem;
+  margin-bottom: 2rem;
+  height: 16.75rem;
+}
+
+.adivinado {
+  text-align: center;
+  color: #002462;
+  font-size: 1.8rem;
+}
+
+.letra {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.adivinada {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-bottom: solid 1px #002462;
+  margin-left: 0.4rem;
+  line-height: 4.5rem;
+}
+
+.errado {
+  text-align:  center;
+  margin-top: 1rem;
+  color: #242d34;
+}
+
+.errada {
+  margin-left: 1rem;
+}
+
+
+[type="button"] {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid 1px #0a3871;
+  color: #0a3871;
+  background: inherit;
+  cursor: pointer;
+}
+
+.btn-azul {
+  background-color: #0a3871;
+  color: #fff;
+  border-color: #000;
+}
+
+.botones {
+  text-align: center;
+  margin-top: 3rem;
+}*/
